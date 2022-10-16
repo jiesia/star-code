@@ -4,7 +4,7 @@ import { ref } from 'vue';
 export const useLayoutStore = defineStore('layoutStore', () => {
   // States
   const sideBarWith = ref(348);
-  const toolsHeight = ref(250);
+  const toolsHeight = ref(0);
 
   // Actions
   const setSideBarWith = (width: number) => {

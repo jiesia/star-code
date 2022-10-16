@@ -95,8 +95,6 @@ rules:
     - 2
   no-octal-escape:
     - 2
-  no-param-reassign:
-    - 2
   no-proto:
     - 2
   no-restricted-properties:
@@ -257,8 +255,6 @@ rules:
     - 2
 
   # ECMAScript 6
-  arrow-parens:
-    - 2
   arrow-spacing:
     - 2
   no-duplicate-imports:
@@ -284,8 +280,6 @@ rules:
   require-yield:
     - 2
   rest-spread-spacing:
-    - 2
-  sort-imports:
     - 2
   symbol-description:
     - 2

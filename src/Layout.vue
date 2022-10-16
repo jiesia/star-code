@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Editor from './views/Editor.vue';
+import Editor from './views/Editor/index.vue';
 import SideBar from './views/SideBar/index.vue';
 import StatusBar from './views/StatusBar.vue';
 import Tools from './views/Tools.vue';
@@ -195,7 +195,6 @@ const onEditorToolsDividerMouseDown = (e: MouseEvent) => {
       left: 0;
       top: 0;
       height: calc(100% - 22px);
-      background-color: #F5F7F9;
     }
 
     &-content {

@@ -58,6 +58,7 @@ const activeControlKey = ref('files');
     overflow: hidden;
     height: 100%;
     flex-shrink: 0;
+    background-color: #FFFFFF;
 
     &-item {
       width: @size;
@@ -88,6 +89,8 @@ const activeControlKey = ref('files');
   .tabs-pane {
     width: 100%;
     flex: 1;
+    overflow: hidden;
+    background-color: #F5F7F9;
   }
 }
 </style>
