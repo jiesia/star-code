@@ -1,0 +1,297 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - eslint:recommended
+  - plugin:vue/vue3-essential
+  - plugin:@typescript-eslint/recommended
+overrides: []
+parser: 'vue-eslint-parser'
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+  parser: '@typescript-eslint/parser'
+plugins:
+  - vue
+  - '@typescript-eslint'
+rules:
+  # Possible Errors
+  no-console:
+    - 1
+  no-await-in-loop:
+    - 2
+  no-extra-parens:
+    - 2
+  no-template-curly-in-string:
+    - 2
+
+  # Best Practices
+  accessor-pairs:
+    - 2
+  array-callback-return:
+    - 2
+  block-scoped-var:
+    - 2
+  class-methods-use-this:
+    - 2
+  consistent-return:
+    - 2
+  curly:
+    - 2
+  dot-location:
+    - error
+    - property
+  dot-notation:
+    - 2
+  eqeqeq:
+    - 2
+  no-alert:
+    - 1
+  no-caller:
+    - 2
+  no-div-regex:
+    - 2
+  no-else-return:
+    - 2
+  no-empty-function:
+    - 2
+  no-empty-pattern:
+    - 2
+  no-eq-null:
+    - 2
+  no-eval:
+    - 2
+  no-extend-native:
+    - 2
+  no-extra-bind:
+    - 2
+  no-extra-label:
+    - 2
+  no-floating-decimal:
+    - 2
+  no-implicit-globals:
+    - 2
+  no-implied-eval:
+    - 2
+  no-invalid-this:
+    - 2
+  no-iterator:
+    - 2
+  no-labels:
+    - 2
+  no-lone-blocks:
+    - 2
+  no-loop-func:
+    - 2
+  no-multi-spaces:
+    - 2
+  no-multi-str:
+    - 2
+  no-new:
+    - 2
+  no-new-func:
+    - 2
+  no-new-wrappers:
+    - 2
+  no-octal-escape:
+    - 2
+  no-param-reassign:
+    - 2
+  no-proto:
+    - 2
+  no-restricted-properties:
+    - 2
+  no-return-assign:
+    - 2
+  no-return-await:
+    - 2
+  no-script-url:
+    - 2
+  no-self-compare:
+    - 2
+  no-sequences:
+    - 2
+  no-throw-literal:
+    - 2
+  no-unmodified-loop-condition:
+    - 2
+  no-unused-expressions:
+    - 2
+  no-useless-call:
+    - 2
+  no-useless-concat:
+    - 2
+  no-useless-return:
+    - 2
+  no-void:
+    - 2
+  no-warning-comments:
+    - 2
+  prefer-named-capture-group:
+    - 2
+  prefer-promise-reject-errors:
+    - 2
+  radix:
+    - 2
+  require-await:
+    - 2
+  require-unicode-regexp:
+    - 2
+  vars-on-top:
+    - 2
+  wrap-iife:
+    - 2
+  yoda:
+    - 2
+
+  # Strict Mode
+  strict:
+    - 2
+
+  # Variables
+  init-declarations:
+    - 2
+  no-label-var:
+    - 2
+  no-restricted-globals:
+    - 2
+  no-shadow:
+    - 2
+  no-undef-init:
+    - 2
+  no-undefined:
+    - 2
+  no-use-before-define:
+    - 2
+
+  # Stylistic Issues
+  block-spacing:
+    - error
+    - always
+  brace-style:
+    - 2
+  camelcase:
+    - 2
+  capitalized-comments:
+    - 2
+  comma-dangle:
+    - error
+    - always-multiline
+  computed-property-spacing:
+    - 2
+  consistent-this:
+    - 2
+  eol-last:
+    - 2
+  func-call-spacing:
+    - error
+    - never
+  func-name-matching:
+    - error
+    - always
+  func-names:
+    - error
+    - never
+  function-paren-newline:
+    - error
+    - multiline
+  implicit-arrow-linebreak:
+    - error
+    - beside
+  indent:
+    - error
+    - 2
+  jsx-quotes:
+    - error
+    - prefer-single
+  key-spacing:
+    - 2
+  keyword-spacing:
+    - 2
+  line-comment-position:
+    - error
+    - above
+  linebreak-style:
+    - error
+    - unix
+  lines-between-class-members:
+    - error
+    - always
+  new-cap:
+    - 2
+  no-multiple-empty-lines:
+    - 2
+  no-new-object:
+    - 2
+  no-trailing-spaces:
+    - 2
+  no-underscore-dangle:
+    - 2
+  no-whitespace-before-property:
+    - 2
+  object-curly-spacing:
+    - error
+    - always
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always
+  semi-spacing:
+    - 2
+  semi-style:
+    - error
+    - last
+  space-before-blocks:
+    - 2
+  space-infix-ops:
+    - 2
+  space-unary-ops:
+    - 2
+  spaced-comment:
+    - 2
+  switch-colon-spacing:
+    - 2
+  template-tag-spacing:
+    - 2
+
+  # ECMAScript 6
+  arrow-parens:
+    - 2
+  arrow-spacing:
+    - 2
+  no-duplicate-imports:
+    - 2
+  no-useless-rename:
+    - 2
+  no-var:
+    - 2
+  object-shorthand:
+    - 2
+  prefer-const:
+    - 2
+  prefer-destructuring:
+    - 2
+  prefer-numeric-literals:
+    - 2
+  prefer-rest-params:
+    - 2
+  prefer-spread:
+    - 2
+  prefer-template:
+    - 2
+  require-yield:
+    - 2
+  rest-spread-spacing:
+    - 2
+  sort-imports:
+    - 2
+  symbol-description:
+    - 2
+  template-curly-spacing:
+    - 2
+  yield-star-spacing:
+    - 2
+  vue/multi-word-component-names:
+    - 0
