@@ -3,11 +3,7 @@
 </script>
 
 <template>
-  <div class="side-bar">
-    Side Bar
+  <div>
+    Files
   </div>
 </template>
-
-<style lang="less">
-
-</style>

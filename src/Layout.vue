@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Editor from './views/Editor.vue';
-import SideBar from './views/SideBar.vue';
+import SideBar from './views/SideBar/index.vue';
 import StatusBar from './views/StatusBar.vue';
 import Tools from './views/Tools.vue';
 import { storeToRefs } from 'pinia';
